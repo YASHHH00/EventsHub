@@ -1,14 +1,10 @@
-import axios from "axios";
-
-axios.defaults.baseURL = "https://eventshub-backend.onrender.com";
-
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './tailwind.css'
 import axios from 'axios'
 
-axios.defaults.baseURL = '' // same origin proxy
+axios.defaults.baseURL = "https://eventshub-backend.onrender.com";
 
 // Ensure theme is applied immediately on app bootstrap
 function applyThemeFromStorage() {

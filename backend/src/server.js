@@ -64,7 +64,7 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500).json({ message: err.message || 'Server error' });
 });
 
-const PORT = process.env.PORT || env.port || 5000;
+const PORT = process.env.PORT || 5050;
 
 async function start() {
   await connectDB();

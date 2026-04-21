@@ -1,3 +1,7 @@
+import axios from "axios";
+
+axios.defaults.baseURL = "https://eventshub-backend.onrender.com";
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'

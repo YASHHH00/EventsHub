@@ -88,3 +88,4 @@ Deployment Notes
 - Set environment variables (`PORT`, `MONGODB_URI`, `JWT_SECRET`, `CLIENT_ORIGIN`)
 - Serve frontend build (Vite `dist/`) via your host or CDN
 - Run backend as a service (PM2/Docker) and ensure CORS allows your frontend origin
+.
